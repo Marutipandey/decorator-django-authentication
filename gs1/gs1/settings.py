@@ -48,6 +48,8 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'enroll.middleware.LogRequestMiddleware', 
+
 ]
 
 ROOT_URLCONF = 'gs1.urls'
