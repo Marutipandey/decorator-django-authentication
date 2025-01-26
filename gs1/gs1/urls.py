@@ -21,4 +21,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('login/', views.login_view, name='login'),
     path('home/', views.home, name='home'),
+    path('signup/', views.signup_view, name='signup'),  # This should work if signup_view exists
+    path('logout/', views.logout_view, name='logout'),
 ]
